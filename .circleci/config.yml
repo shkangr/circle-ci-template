@@ -52,7 +52,7 @@ jobs:
     docker:
       - image: mikesir87/aws-cli
     steps:
-      - checkout # check out the code in the project directory test
+      - checkout # check out the code in the project directory test1
       - run:
           name: Deploy to Prod server
           command: |
