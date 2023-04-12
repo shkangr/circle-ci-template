@@ -1,5 +1,5 @@
 #!/bin/bash
-set -eo pipefail
+set -e pipefail
 
 deploy_cluster() {
   make_container_definition
